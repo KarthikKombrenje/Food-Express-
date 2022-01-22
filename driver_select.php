@@ -1,7 +1,7 @@
 <?php
 function get_data()
 {
-$connect = mysqli_connect("localhost","root","Pitac123","localconnect");
+$connect = mysqli_connect("localhost","root","*******","localconnect");
 $query = "SELECT * FROM driver";
 $result = mysqli_query($connect,$query);
 $driver_data = array();
