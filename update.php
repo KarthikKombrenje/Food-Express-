@@ -1,6 +1,6 @@
 <?php
     header("Access-Control-Allow-Origin: *");
-    $db = mysqli_connect('localhost','root','Pitac123','localconnect');
+    $db = mysqli_connect('localhost','root','*******','localconnect');
 if(!$db){
     echo "Database connection failed";
 }
