@@ -14,7 +14,7 @@
    // header("Access-Control-Allow-Methods: GET");
    // header("Access-Control-Allow-Headers: Access-Control-Allow-Origin, Accept");
     //open connection to mysql db
-    $connection = mysqli_connect("localhost","root","Pitac123","localconnect") or die("Error " . mysqli_error($connection));
+    $connection = mysqli_connect("localhost","root","*******","localconnect") or die("Error " . mysqli_error($connection));
     //fetch table rows from mysql db
     $sql = "select * from food";
     $result = mysqli_query($connection, $sql) or die("Error in Selecting " . mysqli_error($connection));
