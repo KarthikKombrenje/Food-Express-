@@ -1,6 +1,6 @@
 # food_clg
 
-This project is a very  food delivery website made using flutter web . 
+This project is a very simple food delivery website made using flutter web . 
 Tools used in this project are:-
 
 Flutter
@@ -11,7 +11,7 @@ Xampp Server [To host my Sql,php files]
 
 Php
 
-I have created A login and register Page which is used to register/login the users . A table called users contains all the data of Users which is present in MySql.
+I have created A login and register Page which is used to register/login the users . A table called users which contains all the data of Users which is present in MySql.
 I have created 6 tables namely:-
 **Users table**: Contains the registered users and their passwords
 Driver table:-Contains the driver details Has Driver id(Did),Driver 
