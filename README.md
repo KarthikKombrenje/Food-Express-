@@ -12,16 +12,22 @@ I have created 6 tables namely:-
 **Users table**: Contains the registered users and their passwords
 Driver table:-Contains the driver details Has Driver id(Did),Driver 
 Name(Dname),Driver Age(Dage),
+
 **Customers table**: This contains the Customer id(Cid),Customer Name(Cname),Customer 
 Address(Cadd),the type of Customer(Regular , Occasional , New Customer)
+
 **Restaurant table**:-Has the restaurant details in it.This contains the Restaurant 
 id(Rid),Name of Restaurant(Rname),Location of restaurant(Loc)
+
 **Food table**: It stores the details of food available in different restaurants.This contains 
 Restaurant id (Rid),Food id (Fid),Food Name(Fname),Cost of Food(Cost).
+
 Reviews module: This contains all reviews given by the customer.It has Customer 
 id(Cid),Restaurant id(Rid),Rating given by the customer from 1-5(Rating)
+
 **Order Details**: Contains the order details of different customers. It has Rid,Cid,Date of 
 Billing(Date),Bill amount(Bill)
+
 The tables along with attributes are:
 1) Users (Username,Password} 
 2) Drivers(Did,Dname,Age}
