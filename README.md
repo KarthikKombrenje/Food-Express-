@@ -2,9 +2,13 @@
 
 This project is a very  food delivery website made using flutter web . 
 Tools used in this project are:-
+
 Flutter
+
 MyPhpAdmin (MySql)
+
 Xampp Server [To host my Sql,php files]
+
 Php
 
 I have created A login and register Page which is used to register/login the users . A table called users contains all the data of Users which is present in MySql.
