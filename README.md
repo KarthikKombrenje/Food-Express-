@@ -13,6 +13,7 @@ Php
 
 I have created A login and register Page which is used to register/login the users . A table called users which contains all the data of Users which is present in MySql.
 I have created 6 tables namely:-
+
 **Users table**: Contains the registered users and their passwords
 Driver table:-Contains the driver details Has Driver id(Did),Driver 
 Name(Dname),Driver Age(Dage),
